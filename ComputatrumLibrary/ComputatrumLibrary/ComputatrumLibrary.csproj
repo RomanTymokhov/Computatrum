@@ -43,16 +43,20 @@
     <Compile Include="Computatrum.cs" />
     <Compile Include="Core\CoreInterfaces\ICore.cs" />
     <Compile Include="Core\DobleCore.cs" />
+    <Compile Include="Drive\QuantumDrive.cs" />
+    <Compile Include="Enums\CoreType.cs" />
     <Compile Include="Core\MultiCore.cs" />
     <Compile Include="Core\QuantumCore.cs" />
     <Compile Include="Core\SingleCore.cs" />
     <Compile Include="Drive\DriveInterfaces\IDrive.cs" />
     <Compile Include="Drive\HddDrive.cs" />
     <Compile Include="Drive\SsdDrive.cs" />
+    <Compile Include="Enums\DriveType.cs" />
     <Compile Include="IComputatrum.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="ComputatrumLogic\" />
     <Folder Include="Intelligence\" />
     <Folder Include="Ram\RamInterfaces\" />
   </ItemGroup>

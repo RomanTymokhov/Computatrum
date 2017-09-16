@@ -9,5 +9,6 @@ namespace ComputatrumLibrary.Core
 {
     class SingleCore : ICore
     {
+
     }
 }
