@@ -9,5 +9,16 @@ namespace ComputatrumLibrary.Core
 {
     class DobleCore : ICore
     {
+        uint coreCapacity;
+
+        public DobleCore()
+        {
+            this.coreCapacity = 0;
+        }
+
+        public void AddIgnisToCoreCapacity(byte ignis)
+        {
+            this.coreCapacity += ignis;
+        }
     }
 }

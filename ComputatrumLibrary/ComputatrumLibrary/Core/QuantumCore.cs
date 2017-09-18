@@ -9,5 +9,9 @@ namespace ComputatrumLibrary.Core
 {
     class QuantumCore : ICore
     {
+        public void AddIgnisToCoreCapacity(byte ignis)
+        {
+            //todo
+        }
     }
 }

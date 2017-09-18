@@ -9,5 +9,6 @@ namespace ComputatrumLibrary.Core.CoreInterfaces
 {
     interface ICore
     {
+        void AddIgnisToCoreCapacity(byte ignis);
     }
 }

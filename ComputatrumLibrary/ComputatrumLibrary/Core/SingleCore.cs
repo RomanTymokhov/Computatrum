@@ -7,8 +7,18 @@ using System.Threading.Tasks;
 
 namespace ComputatrumLibrary.Core
 {
-    class SingleCore : ICore
+    public class SingleCore : ICore
     {
+        public ushort coreCapacity;
 
+        public SingleCore(byte ignis = 0)
+        {
+            this.coreCapacity = ignis;
+        }
+
+        public void AddIgnisToCoreCapacity(byte ignis)
+        {
+            this.coreCapacity += ignis;
+        }
     }
 }
