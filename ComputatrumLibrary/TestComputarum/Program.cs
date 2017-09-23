@@ -11,10 +11,7 @@ namespace TestComputarum
     {
         static void Main(string[] args)
         {
-            SingleCore core1 = new SingleCore(122);
-            Console.WriteLine(core1.coreCapacity);
-            core1.AddIgnisToCoreCapacity(100);
-            Console.WriteLine(core1.coreCapacity);
+            
         }
     }
 }

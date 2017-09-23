@@ -9,16 +9,20 @@ namespace ComputatrumLibrary.Core
 {
     public class SingleCore : ICore
     {
-        public ushort coreCapacity;
+        ushort coreCapacity; //integer 0 to 65535 -->2 bytes(size)
 
         public SingleCore(byte ignis = 0)
         {
             this.coreCapacity = ignis;
         }
 
+        //Interfaces method
         public void AddIgnisToCoreCapacity(byte ignis)
         {
             this.coreCapacity += ignis;
         }
+
+        //Service Methods
+        //private GetCoreTick
     }
 }

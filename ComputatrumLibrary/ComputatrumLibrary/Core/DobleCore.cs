@@ -9,7 +9,7 @@ namespace ComputatrumLibrary.Core
 {
     class DobleCore : ICore
     {
-        uint coreCapacity;
+        uint coreCapacity; //integer 0 to 4294967295 --> 2 bytes(size)
 
         public DobleCore()
         {
