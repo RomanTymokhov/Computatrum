@@ -53,12 +53,12 @@
     <Compile Include="Drive\SsdDrive.cs" />
     <Compile Include="Enums\DriveType.cs" />
     <Compile Include="IComputatrum.cs" />
+    <Compile Include="Intelligence\IntellInterfaces\IIntell.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ram\RamInterfaces\IRam.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ComputatrumLogic\" />
-    <Folder Include="Intelligence\" />
-    <Folder Include="Ram\RamInterfaces\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

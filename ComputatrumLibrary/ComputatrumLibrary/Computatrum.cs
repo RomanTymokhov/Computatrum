@@ -1,5 +1,8 @@
 ﻿using ComputatrumLibrary.Core.CoreInterfaces;
+using ComputatrumLibrary.Drive.DriveInterfaces;
 using ComputatrumLibrary.Enums;
+using ComputatrumLibrary.Intelligence.IntellInterfaces;
+using ComputatrumLibrary.Ram.RamInterfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,12 +18,10 @@ namespace ComputatrumLibrary
         CoreType CoreType { get; set; }
         DriveType DriveType { get; set; }
 
-        //ICore coreq = new ICore();
-
-        public object Core { get; private set; }
-        public object Ram { get; private set; }
-        public object Drive { get; private set; }
-        public object Intell { get; private set; }
+        ICore Core { get; set; }
+        IRam Ram { get; set; }
+        IDrive Drive { get; set; }
+        IIntell Intell { get; set; }
 
         public Computatrum ()
         {
