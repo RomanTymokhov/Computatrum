@@ -34,7 +34,7 @@ namespace ComputatrumLibrary
             this.CoreType = CoreType.SingleCore;
             this.RamType = RamType.Simm;
             this.DriveType = DriveType.HddType;
-            this.IntelType = IntellType.
+            this.IntelType = IntellType.Lvl0;
         }
 
         public Computatrum (ICore core /*IRam ram, IDrive drive, IIntell intell*/)

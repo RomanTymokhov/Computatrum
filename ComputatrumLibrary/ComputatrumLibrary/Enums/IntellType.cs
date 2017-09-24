@@ -8,6 +8,7 @@ namespace ComputatrumLibrary.Enums
 {
     enum IntellType
     {
+        Lvl0,
         Lvl1
     }
 }
