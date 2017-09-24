@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ComputatrumLibrary.Core.CoreInterfaces
 {
-    interface ICore
+    public interface ICore
     {
         void AddIgnisToCoreCapacity(byte ignis);
     }

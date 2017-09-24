@@ -4,9 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ComputatrumLibrary
+namespace ComputatrumLibrary.Enums
 {
-    interface IComputatrum
+    enum RamType
     {
+        Simm,
+        Dimm,
+        Ddr1,
+        Ddr2,
+        Ddr3,
+        Rimm
     }
 }
